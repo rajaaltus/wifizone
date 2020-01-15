@@ -10,4 +10,4 @@
 
 # Hosting 
 
-> Firebase Hosting
+> Zeit Hosting

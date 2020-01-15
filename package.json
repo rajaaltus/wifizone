@@ -23,6 +23,7 @@
     "firebase": "^6.6.2",
     "firebaseui": "^4.4.0",
     "nuxt": "^2.11.0",
+    "nuxt-start": "^2.11.0",
     "nuxt-svg-loader": "^1.0.1"
   },
   "devDependencies": {

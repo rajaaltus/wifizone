@@ -1,6 +1,7 @@
 <template>
   <b-container>
     <no-ssr>
+      <FireStoreTest />
       <firebase-ui />
     </no-ssr>
   </b-container>
@@ -12,9 +13,11 @@ li {
 </style>
 <script>
 import FirebaseUi from '~/components/FirebaseUi'
+import FireStoreTest from '~/components/FireStoreTest'
 export default {
   name: 'Login',
   components: {
+    FireStoreTest,
     FirebaseUi
   }
 }

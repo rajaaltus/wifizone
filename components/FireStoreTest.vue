@@ -20,7 +20,7 @@
           <span v-if="!readSuccessful">Read now</span>
           <span v-else>Successful!</span>
         </button>
-        <p>{{ text }}</p>
+        <pre>{{ text }}</pre>
       </div>
     </div>
   </section>
@@ -32,14 +32,17 @@ export default {
     return {
       writeSuccessful: false,
       readSuccessful: false,
-      text: ''
+      text: []
     }
   },
   methods: {
     async writeToFirestore() {
-      const ref = fireDb.collection('test').doc('test')
+      const ref = fireDb.collection('users').doc('AwBWmUpPEq4Hizl8uUhG')
       const document = {
-        text: 'This is a test message.'
+        text: {
+          name: 'Jeremy',
+          dob: 'May 01 2013'
+        }
       }
       try {
         await ref.set(document)
@@ -49,12 +52,12 @@ export default {
       this.writeSuccessful = true
     },
     async readFromFirestore() {
-      const ref = fireDb.collection('test').doc('test')
+      const ref = fireDb.collection('users').doc('AwBWmUpPEq4Hizl8uUhG')
       let snap
       try {
         snap = await ref.get()
       } catch (e) {
-        // console.error(e)
+        console.error(e)
       }
       this.text = snap.data().text
       this.readSuccessful = true

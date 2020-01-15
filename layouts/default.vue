@@ -4,7 +4,7 @@
     <b-container fluid class="flex-grow  mt-4">
       <nuxt></nuxt>
     </b-container>
-    <Footer class="no-flex-grow"></Footer>
+    
   </div>
 </template>
 <style scoped>
@@ -22,12 +22,9 @@
 </style>
 <script>
 import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-
 export default {
   components: {
-    Header,
-    Footer
+    Header
   }
 }
 </script>

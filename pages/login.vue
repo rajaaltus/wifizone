@@ -1,9 +1,9 @@
 <template>
   <b-container>
-    <no-ssr>
+    <client-only>
       <FireStoreTest />
       <firebase-ui />
-    </no-ssr>
+    </client-only>
   </b-container>
 </template>
 <style>

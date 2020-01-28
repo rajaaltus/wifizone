@@ -1,0 +1,11 @@
+.firebaseui-country-selector {
+  display: none !important;
+}
+.firebaseui-card-header {
+  display: none !important;
+}
+
+.firebaseui-container {
+  max-width: 100% !important;
+  border: none !important;
+}

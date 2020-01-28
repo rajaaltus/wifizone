@@ -21,7 +21,7 @@ export default {
         signInOptions: [
           {
             provider: authProviders.Phone,
-            defaultCountry: 'LA'
+            defaultCountry: 'IN'
           }
         ],
         signInFlow: 'popup',

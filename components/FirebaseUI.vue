@@ -19,9 +19,10 @@ export default {
       const config = {
         credentialHelper: firebaseui.auth.CredentialHelper.NONE,
         signInOptions: [
-          authProviders.Google,
-          authProviders.Email,
-          authProviders.Phone
+          {
+            provider: authProviders.Phone,
+            defaultCountry: 'IN'
+          }
         ],
         signInFlow: 'popup',
         tosUrl: '/tos',

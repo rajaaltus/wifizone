@@ -8,13 +8,13 @@ if (!firebase.apps.length) {
 }
 
 export const authProviders = {
-  Google: firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-  Email: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+  // Google: firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+  // Email: firebase.auth.EmailAuthProvider.PROVIDER_ID,
   Phone: firebase.auth.PhoneAuthProvider.PROVIDER_ID,
   recaptchaParameters: {
     type: 'image', // 'audio'
     size: 'normal', // 'invisible' or 'compact'
-    badge: 'bottomleft' // ' bottomright' or 'inline' applies to invisible.
+    badge: 'bottomright' // ' bottomright' or 'inline' applies to invisible.
   },
   defaultCountry: 'LA',
   defaultNationalNumber: '2058026838'

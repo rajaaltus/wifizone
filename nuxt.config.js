@@ -38,7 +38,8 @@ module.exports = {
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
     '@nuxtjs/pwa',
-    'nuxt-svg-loader'
+    'nuxt-svg-loader',
+    'nuxt-vue-material'
   ],
   router: {
     middleware: 'router-auth'

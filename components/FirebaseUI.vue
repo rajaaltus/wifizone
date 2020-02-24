@@ -21,7 +21,10 @@ export default {
         signInOptions: [
           {
             provider: authProviders.Phone,
-            defaultCountry: 'IN'
+            defaultCountry: 'IN',
+            recaptchaParameters: {
+              size: 'invisible'
+            }
           }
         ],
         signInFlow: 'popup',

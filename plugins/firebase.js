@@ -12,9 +12,9 @@ export const authProviders = {
   // Email: firebase.auth.EmailAuthProvider.PROVIDER_ID,
   Phone: firebase.auth.PhoneAuthProvider.PROVIDER_ID,
   recaptchaParameters: {
-    type: 'image', // 'audio'
-    size: 'normal', // 'invisible' or 'compact'
-    badge: 'bottomright' // ' bottomright' or 'inline' applies to invisible.
+    // type: 'image', // 'audio'
+    size: 'invisible', // 'invisible' or 'compact'
+    // badge: 'bottomright' // ' bottomright' or 'inline' applies to invisible.
   },
   defaultCountry: 'LA',
   defaultNationalNumber: '2058026838'

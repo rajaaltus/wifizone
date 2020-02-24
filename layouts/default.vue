@@ -4,7 +4,6 @@
     <b-container fluid class="flex-grow  mt-4">
       <nuxt></nuxt>
     </b-container>
-    
   </div>
 </template>
 <style scoped>

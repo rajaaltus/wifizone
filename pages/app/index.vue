@@ -2,7 +2,7 @@
   <div class="container-flux">
     <div class="container col-lg-8 main-card text-center">
       <div class="main-card text-left">
-        <h2>Welcome to DD Mall,</h2>
+        <h2>Welcome to DB Mall,</h2>
         <b-form ref="form" @submit.prevent="onSubmit">
           <label> Enter your Name here...</label>
           <b-form-input

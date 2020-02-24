@@ -6,7 +6,7 @@
           <img src="/artwork.png" alt="logo" />
         </div>
       </div>
-      <h3>Welcome to DD Mall</h3>
+      <h3>Welcome to DB Mall</h3>
       <h6>Free Wifi Zone</h6>
       <div class="mt-1">
         <div v-if="$store.state.user">

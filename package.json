@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "firebase": "^6.6.2",
     "firebaseui": "^4.4.0",
-    "nuxt": "^2.11.0",
+    "nuxt": "^2.15.8",
     "nuxt-start": "^2.11.0",
     "nuxt-svg-loader": "^1.0.1",
     "nuxt-vue-material": "^1.2.0"
@@ -48,6 +48,6 @@
     "jest": "^24.9.0",
     "nodemon": "^1.19.4",
     "prettier": "^1.19.1",
-    "vue-jest": "^3.0.5"
+    "vue-jest": "^4.0.1"
   }
 }
